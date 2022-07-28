@@ -1,0 +1,112 @@
+<div [ngClass]="isDarkTheme? 'dark-theme' : 'light-theme' ">
+
+
+
+
+
+<p>
+  <mat-toolbar>
+   
+  <span>My Blog &nbsp;&nbsp;</span>
+  <span class="example-spacer"></span>
+  
+  <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+    <mat-icon>favorite</mat-icon>
+  </button>&nbsp;&nbsp;
+  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+   <mat-icon>share</mat-icon>
+ </button>
+</mat-toolbar>
+</p>
+<mat-card>
+  <mat-card-content>
+    <mat-slide-toggle (click)="togglebutton()">{{title}}</mat-slide-toggle>
+     
+  </mat-card-content>
+  
+<body>
+  <h2> Happy Gandhi Jayanti </h2>
+
+  <h3><strong> Gandhi Jayanti is celebrated every year on 2nd of October </strong></h3>
+  <p>It was vacation, and I had nothing to do;
+    I was at home and mummy daddy too;
+    My glance caught a sketch, of an old person;
+    He appeared to be the gentlest under the sun;
+    Strikingly, different was the expression in his Eyes;
+    Suddenly I felt guilty of all my lies;<br>
+    His lips parted in a smile , so pure
+    He left me spellbound that's for sure
+    "Who is he dad?" was my question
+    "Come on, don't you know?" "was his reaction<br>
+    He is the one who has set us free;
+    He is the one who has planted the tree;
+    He is the one, who was bold enough;
+    Firm and stubborn but never rough;<br>
+    Truth and non-violence is what he taught
+    Same were the principles for which he fought
+    Preaching and practices for once were the same
+    His deed were worth name and fame<br>
+    I have never seen a soul, so tall;
+    Oh dad; he appears to be the father of all
+    "You said it, child" said my dad
+    'Bapu' is the name he always had
+    I saw the sketch again and again,
+    His returning smile was my greatest gain,
+    October 2nd was the day my friends
+    That certainly changed my life's trends </p>
+
+    <h3><b>A father vision</b></h3>
+    <p>Shrouded in white,
+      A supportive wooden stick in one hand,
+      Walking towards the new era in sight,
+      He left his footprints on the historic Indian sand.
+      
+      Advocating peace,
+      Upholding his virtues,
+      The ever lit candle of his beliefs will never cease,
+      So will the fruition of his toil from dusk till the dew.
+      
+      Scrutinizing the progressive vision of this country,
+      Acting as a beacon light for his followers,
+      Striving to make the nation free,
+      A tolerant and non-violent country he tried to nurse.
+      
+      His praises echo throughout,
+      His deeds guiding us in building a new nation,
+      Lifting us from inequality's drought,
+      This is Mahatma Gandhi, our father, whose name we recite in exaltation.</p>
+
+<h3><b>Bapu - A True Satyagrahi</b></h3>
+<p>Mahatma the enlightened one
+  Won a war without sword or gun
+  Born in Saurashtra, a small coastal town
+  Which because of him achieved world Renown
+  A gentle human with a rare philosophy
+  Left his imprint in the annals of History
+  He threw back the conquerors across the seas
+  
+  By showing them the power of his inner peace
+  Ahimsa he followed and brought a bloodless revolution
+  Without him our country we couldn't call our Nation
+  His message to us is simple and clear
+  If we, ignore it, the price we pay is dear
+  Discriminate not on creed or caste
+  Stand united, be Indian first and last
+  Bapu, sometimes I dream if you were in our midst
+  Wouldn't you face up to the terrorists,
+  Wouldn't you convert him who smuggles and plunders
+  Wouldn't you set right our wayward leaders,
+  Wouldn't you today save my country
+  And restore it to its ultimate Glory???
+  
+  Bapu, I dream, a dream, will my dream come true
+  Will you be born again
+  My country needs you.</p>
+
+</body>
+</mat-card>
+
+
+
+<router-outlet></router-outlet>
+</div>
